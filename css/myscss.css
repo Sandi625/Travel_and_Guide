@@ -32,7 +32,22 @@ section {
   padding: 5rem 9%;
 }
 
-/* Define a keyframe animation for button blinking */
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  border: 0.2rem solid black;
+  color: #10221b;
+  cursor: pointer;
+  background: none;
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+}
+.btn:hover {
+  background: #10221b;
+  color: #fff;
+}
+
+/* Define a keyframe animation for button1 blinking */
 @keyframes blink {
   0%, 100% {
     opacity: 1;
@@ -41,8 +56,8 @@ section {
     opacity: 0;
   }
 }
-/* Apply the animation to the .btn element */
-.btn {
+/* Apply the animation to .btn1 element */
+.btn1 {
   margin-top: 1rem;
   display: inline-block;
   border: 0.2rem solid black;
@@ -56,12 +71,12 @@ section {
   /* Add the blink animation */
   animation: blink 1s infinite; /* Make it blink infinitely */
 }
-.btn:hover {
+.btn1:hover {
   background: #10221b;
   color: #fff;
-  animation: none; /* Disable the animation on hover */
 }
 
+/* Disable the animation on hover for .btn1 */
 .heading {
   text-align: center;
   margin-bottom: 2.5rem;
