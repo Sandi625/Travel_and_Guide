@@ -259,7 +259,7 @@ section {
     flex-wrap: wrap;
     gap: 2rem;
 
-    .image {
+    .images {
         flex: 1 1 auto; /* Menghapus lebar tetap, agar gambar responsif */
         max-width: 100%; /* Membuat gambar tidak melebihi lebar elemen parent */
         padding-right: 5rem;
@@ -785,19 +785,18 @@ section {
     }
 }
 
-
-
 @media (max-width: 768px) {
     .about {
-        flex-direction: column; /* Mengubah tata letak menjadi tumpukan vertikal */
+      flex-direction: column; // Mengubah tata letak menjadi tumpukan vertikal
     }
 
     .images {
-        padding: 0; /* Menghapus padding pada gambar */
-        text-align: center; /* Mengatur teks tengah di layar kecil */
+      padding: 0; // Menghapus padding pada gambar
+      text-align: center; // Mengatur teks tengah di layar kecil
     }
 
     .content {
-        text-align: center; /* Mengatur teks tengah di layar kecil */
+      text-align: center; // Mengatur teks tengah di layar kecil
     }
-}
+  }
+
