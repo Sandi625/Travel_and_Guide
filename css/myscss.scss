@@ -252,7 +252,6 @@ section {
     }
 }
 
-
 .about {
     background: $light-bg;
     display: flex;
@@ -261,16 +260,20 @@ section {
     gap: 2rem;
 
     .image {
-        flex: 1 1 42rem;
+        flex: 1 1 auto; /* Menghapus lebar tetap, agar gambar responsif */
+        max-width: 100%; /* Membuat gambar tidak melebihi lebar elemen parent */
         padding-right: 5rem;
         padding-bottom: 5rem;
 
-
         img {
-            width: 100%;
+            width: 100%; /* Memastikan gambar mengisi seluruh lebar .image */
+            max-width: 100%; /* Membuat gambar tidak melebihi lebar .image */
             box-shadow: 4rem 4rem 0 rgba(0, 0, 0, .1);
         }
     }
+    
+}
+
 
     .content {
         flex: 1 1 42rem;
@@ -288,7 +291,7 @@ section {
 
         }
     }
-}
+
 
 
 .shop {
@@ -517,7 +520,7 @@ section {
             transform: translateY(-50%);
             height: 5rem; /* Tinggi panah yang lebih besar */
             width: 5rem; /* Lebar panah yang lebih besar */
-            background-color: $green; /* Warna latar belakang hijau */
+            background-color: rgba(0, 128, 0, 0.132); /* Warna latar belakang hijau */
             border-radius: 50%;
             display: flex;
             justify-content: center;
@@ -528,8 +531,8 @@ section {
         }
 
         &::before {
-            left: -4rem; /* Panah kiri */
-            content: '←';
+            left: -7rem; /* Panah kiri */
+            content: '→';
         }
 
         &::after {
@@ -779,5 +782,22 @@ section {
 
         
 
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .about {
+        flex-direction: column; /* Mengubah tata letak menjadi tumpukan vertikal */
+    }
+
+    .images {
+        padding: 0; /* Menghapus padding pada gambar */
+        text-align: center; /* Mengatur teks tengah di layar kecil */
+    }
+
+    .content {
+        text-align: center; /* Mengatur teks tengah di layar kecil */
     }
 }
