@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #f2f2f2;
+    padding: 1rem;
+    text-align: center;
+}
+
+.info-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: left;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+ul, table, .fasilitas, .non-fasilitas {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+.fasilitas, .non-fasilitas {
+    margin-top: 10px;
+}
+
+.fasilitas li, .non-fasilitas li {
+    font-size: 1.2rem;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.fasilitas li::before, .non-fasilitas li::before {
+    content: '\2022'; /* Unicode untuk bullet point */
+    color: #4CAF50;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    margin-right: 5px;
+}
+/* Gaya Header */
+.header {
+    background-color: #13762760;
+    color: #fff;
+    padding: 15px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Gaya Tombol Kembali */
+.back-button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button a:hover {
+    background-color: #45a049;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS untuk tata letak tabel pada tampilan ponsel */
+@media screen and (max-width: 768px) {
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+}
