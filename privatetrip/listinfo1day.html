@@ -4,22 +4,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Info Perjalanan</title>
     <link rel="stylesheet" href="../css/privatetrip/listinfo1day.css">
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ... -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-1234567890abcdefghijklmnopqrstuvwxyzABCDEF=" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- ... -->
+</head>
+<body>
+
 </head>
 
 <body>
+    
     <div class="header">
         <div class="back-button">
             <a href="privatetrip.html" onclick="history.go(-1);">Back</a> <br>
         </div>
         <h1>Informasi Perjalanan</h1>
     </div>
-    <div class="info-container">
-        <img src="../images/kawah hujan.jpg" alt="Deskripsi Gambar">
-        <h2>Destinasi</h2>
-        <p>Kawah Ijen, Air Terjun Jagir</p>
-   
+    <div id="carousel-1" class="carousel">
+        <div class="carousel-screen">
+            <img src="../images/kawa kawa.jpg" alt="Slide 1">
+        </div>
+        <div class="carousel-screen">
+            <img src="../images/baluran.jpg" alt="Slide 2">
+        </div>
+        <div class="carousel-screen">
+            <img src="../images/bg1.jpg" alt="Slide 3">
+        </div>
+        <!-- ...Tambahkan lebih banyak carousel-screen sesuai dengan kebutuhan -->
+        <div class="circle-container">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <!-- ...Tambahkan lebih banyak circle sesuai dengan jumlah carousel-screen -->
+        </div>
+        <div class="left-arrow">⬅️</div>
+        <div class="right-arrow">➡️</div>
+    </div>
+
+    <div class="center">
+        <button class="whatsapp-button" onclick="window.location.href='https://wa.me/+6285847100233'">Chat with us on WhatsApp</button>
+    </div>
+    
+    
+   <h2>Destination: <span>Kawah Ijen and Jagir WaterFall</span></h2> <br> <br> <br> 
 
         <h2>Jadwal Perjalanan</h2>
         <ul>
@@ -129,7 +165,7 @@
             </tr>
         </table>
         
-        
+       
         
         <h2>Fasilitas</h2>
         <ul class="fasilitas">
@@ -149,6 +185,10 @@
             <li>Biaya tambahan di luar fasilitas</li>
         </ul>
     </div>
+    
+
+    <script src="../js/swiper/swiper.js"></script>
+    
 </body>
 
 </html>
