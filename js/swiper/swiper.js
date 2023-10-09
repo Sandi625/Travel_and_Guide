@@ -109,6 +109,8 @@ circleStore.forEach(circle => {
 })
 })
 
+
+
 function changeScreenCircleClick(circleIndex, direction) {
     inAnim = true;
     if(direction === "right"){
@@ -223,4 +225,16 @@ if(scrollTime) {
         }, scrollTime);
     })
 
+}
+
+
+
+// Wa
+function redirectToWhatsApp() {
+    // Nomor WhatsApp bisnis dan pesan prateks
+    var phoneNumber = '+6285847100233';
+    var message = encodeURIComponent('Hallo, saya ingin pesan paket travel Option 1 HonneyMoon Trip Destination: Kawah Ijen Price $250.');
+
+    // Buka tautan ke WhatsApp dengan nomor dan pesan prateks
+    window.open('https://wa.me/' + phoneNumber + '?text=' + message, '_blank');
 }
