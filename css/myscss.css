@@ -827,3 +827,23 @@ section {
 .home-slider .swiper-slide .content p {
   transition: transform 0.5s ease;
 }/*# sourceMappingURL=myscss.css.map */
+.whatsapp-logo {
+  background-color: #25D366; /* Warna hijau WhatsApp */
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 9999; /* Nilai z-index yang tinggi untuk memastikan tampil di depan elemen lain */
+}
+
+.whatsapp-logo i {
+  color: white;
+  font-size: 30px;
+}
+

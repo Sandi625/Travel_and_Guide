@@ -159,3 +159,14 @@ var swiper = new Swiper(".home-slider", {
         },
       },
   });
+
+
+  // Wa
+
+  function redirectToWhatsApp() {
+    // Ganti nomor berikut dengan nomor WhatsApp bisnis Anda
+    var phoneNumber = '+6285847100233';
+
+    // Buka tautan ke WhatsApp dengan nomor yang ditentukan
+    window.open('https://wa.me/' + phoneNumber, '_blank');
+}
