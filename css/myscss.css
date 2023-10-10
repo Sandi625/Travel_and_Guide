@@ -95,18 +95,42 @@ section {
   align-items: center;
 }
 .header.active {
-  background: #fff;
+  background: #ffffff00;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff00; /* Atur warna latar belakang sesuai kebutuhan */
+  padding: 5px 5px; /* Atur padding sesuai kebutuhan */
+}
 .header .logo {
-  margin-right: auto;
+  font-size: 1.5rem;
+  background-color: #10221b00;
+  color: #10221b;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  padding: 5px; /* Sesuaikan nilai padding sesuai kebutuhan */
+}
+
+.header .logo img {
+  width: 70px; /* Sesuaikan ukuran gambar logo sesuai kebutuhan */
+  height: auto;
+  background-color: #10221b00;
+  margin-right: 10px; /* Beri sedikit ruang di sebelah kanan gambar */
+  color: #219150;
+}
+
+.header .logo span {
   font-size: 2.5rem;
   color: #10221b;
   font-weight: bolder;
 }
-.header .logo i {
-  color: #219150;
-}
+
+
+
 
 .navbar a {
   margin-left: 2rem;
