@@ -97,7 +97,10 @@ section {
 .header.active {
   background: #ffffff00;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  height: 60px; /* Sesuaikan tinggi header sesuai kebutuhan */
 }
+
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -112,7 +115,7 @@ section {
   font-weight: bolder;
   display: flex;
   align-items: center;
-  padding: 5px; /* Sesuaikan nilai padding sesuai kebutuhan */
+  padding: 1px; /* Sesuaikan nilai padding sesuai kebutuhan */
 }
 
 .header .logo img {
