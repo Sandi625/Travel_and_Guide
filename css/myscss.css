@@ -119,8 +119,9 @@ section {
 }
 
 .header .logo img {
-  width: 70px; /* Sesuaikan ukuran gambar logo sesuai kebutuhan */
+  width: 100px; /* Sesuaikan ukuran gambar logo sesuai kebutuhan */
   height: auto;
+  margin-bottom: 5%;
   background-color: #10221b00;
   margin-right: 10px; /* Beri sedikit ruang di sebelah kanan gambar */
   color: #219150;
