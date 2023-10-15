@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Info Perjalanan</title>
+    <link rel="stylesheet" href="opsi1.css">
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <!-- ... -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            integrity="sha512-1234567890abcdefghijklmnopqrstuvwxyzABCDEF=" crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
+
+        <!-- ... -->
+    </head>
+
+<body>
+
+    </head>
+
+    <body>
+
+        <div class="header">
+            <div class="back-button">
+                <a href="option.html" onclick="history.go(-1);">Back</a> <br>
+            </div>
+            <h1>Request Trip</h1>
+        </div>
+        <div id="carousel-1" class="carousel">
+            <div class="carousel-screen">
+                <img src="../images/kawa kawa.jpg" alt="Slide 1">
+            </div>
+            <div class="carousel-screen">
+                <img src="../images/baluran.jpg" alt="Slide 2">
+            </div>
+            <div class="carousel-screen">
+                <img src="../images/bg1.jpg" alt="Slide 3">
+            </div>
+            <!-- ...Tambahkan lebih banyak carousel-screen sesuai dengan kebutuhan -->
+            <div class="circle-container">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <!-- ...Tambahkan lebih banyak circle sesuai dengan jumlah carousel-screen -->
+            </div>
+            <div class="left-arrow" style="color: white;">Turn Left</div>
+            <div class="right-arrow" style="color: white;">Turn Right</div>
+
+        </div>
+
+        <div class="center">
+            <button class="whatsapp-button" onclick="redirectToWhatsApp()">Booking Now</button>
+        </div>
+
+
+
+        <h2>All Destination: <span>Kawah Ijen, Djawatan,Red Island, Baluran </span></h2> <br> <br> <br>
+
+
+        <h2>Jadwal Perjalanan <span>Baluran</span> </h2>
+
+        <table>
+            <tr>
+                <th>Waktu</th>
+                <th>Kegiatan</th>
+            </tr>
+            <tr>
+                <td>13.00 </td>
+                <td>Penjemputan di hotel, perjalanan menuju Baluran</td>
+            </tr>
+            <tr>
+                <td>14.30</td>
+                <td>Tiba di Baluran dan explore Baluran</td>
+            </tr>
+            <tr>
+                <td>17.00</td>
+                <td>Menuju rumah makan </td>
+            </tr>
+            <tr>
+                <td>18.00 </td>
+                <td>Makan Malam</td>
+            </tr>
+            <tr>
+                <td>19.00 - Selesai</td>
+                <td>Kembali ke Hotel</td>
+            </tr>
+
+        </table>
+
+        <h2>Jadwal Perjalanan <span>Kawah Ijen</span> </h2>
+
+        <table>
+            <tr>
+                <th>Waktu</th>
+                <th>Kegiatan</th>
+            </tr>
+            <tr>
+                <td>00.00 </td>
+                <td>Penjemputan di hotel, perjalanan menuju Paltuding</td>
+            </tr>
+            <tr>
+                <td>01.30</td>
+                <td>Sampai di Paltuding, briefing dan sharing pendakian 30 menit</td>
+            </tr>
+            <tr>
+                <td>02.00</td>
+                <td>Pendakian menuju Kawah Ijen</td>
+            </tr>
+            <tr>
+                <td>03.30 </td>
+                <td>Eksplore blue fire, sunrise dan Kawah Ijen</td>
+            </tr>
+            <tr>
+                <td>08.00</td>
+                <td>Turun menuju Paltuding</td>
+            </tr>
+            <tr>
+                <td>08.30</td>
+                <td>Breakfast</td>
+            </tr>
+            <tr>
+                <td>09.00 </td>
+                <td>Explore Air Terjun Jagir</td>
+            </tr>
+            <tr>
+                <td>11.00</td>
+                <td>Perjalanan ke Hotel</td>
+            </tr>
+            <tr>
+                <td>11.00 – Selesai</td>
+                <td>Hotel. Trip selesai</td>
+            </tr>
+        </table>
+
+
+
+
+
+        <h2>Jadwal Perjalanan <span>Djawatan and Red Island</span> </h2>
+
+        <table>
+            <tr>
+                <th>Waktu</th>
+                <th>Kegiatan</th>
+            </tr>
+            <tr>
+                <td>10.00 </td>
+                <td>Penjemputan di hotel, perjalanan menuju Djawatan</td>
+            </tr>
+            <tr>
+                <td>11.00</td>
+                <td>Sampai di lokasi dan explor fairyland forest 2 hours</td>
+            </tr>
+            <tr>
+                <td>13.00</td>
+                <td>Makan Siang</td>
+            </tr>
+            <tr>
+                <td>14.00 </td>
+                <td>Menujju pulau merah</td>
+            </tr>
+            <tr>
+                <td>15.00</td>
+                <td>Enjoy di pantai sambil menunggu sunset di pulau merah</td>
+            </tr>
+            <tr>
+                <td>17.00 – Trip selesai </td>
+            </tr>
+        </table>
+
+        
+        
+
+        <style>
+            .custom-list {
+                border: 8px solid black;
+                margin: 0;
+                width: 100%;
+                padding: 10px;
+                text-align: left;
+            }
+        
+            .custom-list h2 {
+                text-align: center;
+            }
+        
+            .custom-list ul {
+                list-style-type: none;
+                padding: 0;
+            }
+        
+            .custom-list li {
+                margin-bottom: 10px;
+            }
+        </style>
+        
+        <!-- Kode HTML dengan daftar tanpa tabel dan menggunakan kelas CSS custom-list -->
+        <div class="custom-list">
+            <h2>Destinasi</h2>
+            <ul>
+                <li>Kawah Ijen</li>
+                <li>Pantai Pulau Merah</li>
+                <li>Pantai Green Bay</li>
+                <li>Teluk Hijau</li>
+                <li>Pulau Menjangan</li>
+                <li>Pantai Bama</li>
+                <li>Taman Nasional Baluran</li>
+                <li>Pantai Plengkung</li>
+                <li>Pantai Wedi Ireng</li>
+                <li>Air Terjun Tumpak Sewu</li>
+                <li>Taman Nasional Alas Purwo</li>
+                <li>G-land</li>
+                <li>Pulau Tabuhan</li>
+                <li>Bangsring Underwater</li>
+                <li>Kawah Wurung</li>
+            </ul>
+        </div>
+        
+
+
+
+
+
+
+        <h2>Include</h2>
+        <ul class="fasilitas">
+            <li>Pemandu wisata berpengalaman</li>
+            <li>Tiket masuk destinasi</li>
+            <li>Transportasi ber-AC</li>
+            <li>Dinner </li>
+            <li>Air mineral</li>
+            <li>Snack </li>
+            <li>Merchandise</li>
+        </ul>
+
+        <h2>Exclude</h2>
+        <ul class="non-fasilitas">
+            <li>hotel or homestay </li>
+            <li>Dokumentasi video, dan foto (drone, dan kamera) </li>
+            <li>Peralatan piknik
+            <li>romantic cake and romantic buket</li>
+        </ul>
+        </div>
+
+
+        <script src="../js/swiper/swiper.js"></script>
+
+
+
+
+
+    </body>
+
+</html>

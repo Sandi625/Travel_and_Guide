@@ -52,6 +52,8 @@ var swiper = new Swiper(".home-slider", {
     },
   });
 
+ 
+
   var swiper = new Swiper(".product-slider", {
     // loop:true,
     grabCursor: true,
@@ -171,4 +173,16 @@ var swiper = new Swiper(".home-slider", {
 
     // Buka tautan ke WhatsApp dengan nomor yang ditentukan
     window.open('https://wa.me/' + phoneNumber, '_blank');
+}
+
+
+
+// wa
+function redirectToWhatsApp() {
+  var message = document.getElementById('messageInput').value;
+  var phoneNumber = '+6285847100233'; // Ganti dengan nomor WhatsApp bisnis Anda
+  var encodedMessage = encodeURIComponent(message);
+
+  // Buka tautan ke WhatsApp dengan nomor dan pesan yang dimasukkan oleh pengguna
+  window.open('https://wa.me/' + phoneNumber + '?text=' + encodedMessage, '_blank');
 }

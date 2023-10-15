@@ -1,77 +1,50 @@
-/* File CSS di dalam ../../css/about/about.css */
-
-/* Gaya untuk memastikan konten berada di tengah layar */
-.body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Mengisi tinggi seluruh viewport */
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
-    background: url('../../images/team2.JPG') center/cover no-repeat, rgba(0, 128, 0, 0.5); /* Menambahkan double background dengan gambar dan warna hijau transparan */
-    background-blend-mode: multiply; /* Menggabungkan gambar dan warna latar belakang */
-    background-size: cover;
+    padding: 0;
+    background-color: #f5f5f5;
 }
 
-.about {
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
-.box {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.content {
-    max-width: 800px; /* Sesuaikan dengan lebar maksimum yang diinginkan */
+.team-photo {
     width: 100%;
-    padding: 20px;
+    height: 400px;
+    background: url('../../foto/28.jpg') center/cover;
+    margin-bottom: 1.5rem;
 }
 
-/* Gaya teks dalam kartu */
-.card p {
-    max-width: 100%;
-    box-sizing: border-box;
-    overflow-wrap: break-word;
-    background: rgba(255, 255, 255, 0.163);
-    backdrop-filter: blur(10px);
-    text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.308);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.362);
-    border-right: 1px solid rgba(255, 255, 255, 0.305);
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-    transition: transform 1s ease 0.3s;
+h1 {
+    color: #10221b;
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
-/* File CSS di dalam ../../css/about/about.css */
+p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.5;
+}
 
-/* Gaya tombol "Back" */
 .back-button {
-    background-color: #008000; /* Warna hijau */
-    color: white; /* Warna teks putih */
-    padding: 15px 30px; /* Padding agar tombol terlihat lebih besar */
-    border: none; /* Menghapus border */
-    border-radius: 10px; /* Sudut sudut tombol */
-    cursor: pointer; /* Kursor pointer saat mengarahkan ke tombol */
-    font-size: 18px; /* Ukuran font */
-    transition: background-color 0.3s ease; /* Efek transisi saat tombol berubah warna latar belakang */
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #109a55;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
-/* Gaya tombol "Back" saat dihover */
 .back-button:hover {
-    background-color: #006400; /* Warna hijau yang sedikit lebih gelap saat dihover */
-}
-
-/* Media queries untuk layar berukuran kecil (contoh: smartphone) */
-@media (max-width: 768px) {
-    .content {
-        padding: 10px; /* Mengurangi padding untuk tampilan layar kecil */
-    }
-
-    .card p {
-        padding: 10px; /* Mengurangi padding untuk tampilan layar kecil */
-    }
+    background-color: #091c16;
 }

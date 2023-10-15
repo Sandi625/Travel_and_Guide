@@ -119,10 +119,10 @@ section {
 }
 
 .header .logo img {
-  width: 100px; /* Sesuaikan ukuran gambar logo sesuai kebutuhan */
+  width: 80px; /* Sesuaikan ukuran gambar logo sesuai kebutuhan */
   height: auto;
-  margin-bottom: 8%;
-  background-color: #10221b00;
+ margin-top: -20%;
+  background-color: #ffffff00;
   margin-right: 10px; /* Beri sedikit ruang di sebelah kanan gambar */
   color: #219150;
 }
@@ -568,46 +568,45 @@ section {
   line-height: 2;
   color: #10221b;
 }
-
-.newsletter {
-  background: #eee;
-}
-.newsletter .content {
-  max-width: 70rem;
-  margin: 1rem auto;
-  text-align: center;
-}
-.newsletter .content p {
-  font-size: 1.5rem;
-  line-height: 2;
-  color: #10221b;
-}
 .newsletter .content form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-top: 2rem;
   background: #fff;
   border-radius: 5rem;
   border: 0.2rem solid black;
-  padding: 2rem;
-  display: flex;
+  padding: 1.3rem;
 }
-.newsletter .content form .email {
-  width: 100%;
+
+.newsletter .content form .message {
+  flex: 1;
   background: none;
   text-transform: none;
   font-size: 1.5rem;
   color: #10221b;
   padding: 0 1.3rem;
-}
-.newsletter .content form .btn {
-  margin-top: 0;
   border-radius: 5rem;
+  border: none;
+  outline: none;
+}
+
+.newsletter .content form .btn {
   background: #10221b;
   color: #fff;
+  border: none;
+  border-radius: 5rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
 }
+
 .newsletter .content form .btn:hover {
   background: none;
   color: #10221b;
 }
+
+
+
 
 .clients .slide {
   text-align: center;
