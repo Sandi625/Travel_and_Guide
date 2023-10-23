@@ -229,11 +229,12 @@ if(scrollTime) {
 
 
 
+
 // Wa
 function redirectToWhatsApp() {
     // Nomor WhatsApp bisnis dan pesan prateks
     var phoneNumber = '+6281399447440';
-    var message = encodeURIComponent('Hallo, saya ingin pesan paket travel Option 2 Private Trip Destination: Baluran Savana National Park $108.');
+    var message = encodeURIComponent('Hallo, saya ingin pesan paket travel Option 2 Backpacker Trip Destination: Banyuwangi $50.');
 
     // Buka tautan ke WhatsApp dengan nomor dan pesan prateks
     window.open('https://wa.me/' + phoneNumber + '?text=' + message, '_blank');

@@ -169,7 +169,7 @@ var swiper = new Swiper(".home-slider", {
 
   function redirectToWhatsApp() {
     // Ganti nomor berikut dengan nomor WhatsApp bisnis Anda
-    var phoneNumber = '+6285847100233';
+    var phoneNumber = '+6281399447440';
 
     // Buka tautan ke WhatsApp dengan nomor yang ditentukan
     window.open('https://wa.me/' + phoneNumber, '_blank');
@@ -180,7 +180,7 @@ var swiper = new Swiper(".home-slider", {
 // wa
 function redirectToWhatsApp() {
   var message = document.getElementById('messageInput').value;
-  var phoneNumber = '+6285847100233'; // Ganti dengan nomor WhatsApp bisnis Anda
+  var phoneNumber = '+6281399447440'; // Ganti dengan nomor WhatsApp bisnis Anda
   var encodedMessage = encodeURIComponent(message);
 
   // Buka tautan ke WhatsApp dengan nomor dan pesan yang dimasukkan oleh pengguna
