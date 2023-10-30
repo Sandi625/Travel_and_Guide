@@ -879,3 +879,55 @@ section {
   font-size: 30px;
 }
 
+
+
+
+
+/* tailwind */
+/* Gaya untuk kolom dan teks */
+.form-label {
+  font-size: 2rem; /* Ukuran font untuk label */
+  color: #4a5568; /* Warna font untuk label */
+}
+
+.form-control {
+  font-size: 2rem; /* Ukuran font untuk input dan textarea */
+  padding: 2rem 1rem; /* Padding untuk input dan textarea */
+  border-radius: 0.5rem; /* Sudut melengkung untuk input dan textarea */
+  border: 1px solid #000000; /* Warna border untuk input dan textarea */
+  width: 100%; /* Lebar 100% untuk input dan textarea */
+  margin-bottom: 1.5rem; /* Margin bawah */
+}
+
+/* Gaya untuk judul dan teks paragraf */
+.h1-style {
+  font-size: 1.875rem; /* Ukuran font untuk judul */
+  font-weight: 600; /* Ketebalan font untuk judul */
+  color: #2d3748; /* Warna font untuk judul */
+  margin-bottom: 1.5rem; /* Margin bawah */
+}
+
+.p-style {
+  font-size: 1rem; /* Ukuran font untuk teks paragraf */
+  line-height: 1.5; /* Tinggi baris untuk teks paragraf */
+  color: #4a5568; /* Warna font untuk teks paragraf */
+  margin-bottom: 2rem; /* Margin bawah */
+}
+/* CSS untuk tombol submit kustom */
+.custom-submit-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  font-size: 1.5rem; /* Mengatur ukuran teks tombol submit */
+  border-radius: 0.25rem;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.custom-submit-button:hover {
+  background-color: #333;
+}
+
+
