@@ -233,7 +233,7 @@ if(scrollTime) {
 function redirectToWhatsApp() {
     // Nomor WhatsApp bisnis dan pesan prateks
     var phoneNumber = '+6281399447440';
-    var message = encodeURIComponent('Hallo, saya ingin pesan paket travel Option 2 Private Trip Destination: Kawah Ijen $50.');
+    var message = encodeURIComponent('Hello, I want to order the Option 2 Private Trip Destination travel package: Ijen Crater $50.');
 
     // Buka tautan ke WhatsApp dengan nomor dan pesan prateks
     window.open('https://wa.me/' + phoneNumber + '?text=' + message, '_blank');
