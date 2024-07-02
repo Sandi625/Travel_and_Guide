@@ -232,7 +232,7 @@ if(scrollTime) {
 // Wa
 function redirectToWhatsApp() {
     // Nomor WhatsApp bisnis dan pesan prateks
-    var phoneNumber = '+6281399447440';
+    var phoneNumber = '+6282132662815';
     var message = encodeURIComponent('Hello, I want to order a travel package. Option 1 Request Travel Destination: Travel price adjusted to Banyuwangi.');
 
     // Buka tautan ke WhatsApp dengan nomor dan pesan prateks

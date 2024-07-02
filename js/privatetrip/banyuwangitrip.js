@@ -232,7 +232,7 @@ if(scrollTime) {
 // Wa
 function redirectToWhatsApp() {
     // Nomor WhatsApp bisnis dan pesan prateks
-    var phoneNumber = '+6285847100233';
+    var phoneNumber = '+6282132662815';
     var message = encodeURIComponent('Hallo, saya ingin pesan paket travel Option 3 Banyuwangi Trip Destination: Kawah Ijen Price $250.');
 
     // Buka tautan ke WhatsApp dengan nomor dan pesan prateks
